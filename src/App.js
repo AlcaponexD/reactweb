@@ -1,7 +1,7 @@
 import React , { Component }from 'react';
 import Header from './components/Header'
 import './styles.css';
-import Main from './pages/main';
+import Routes from './routes'
 
 // class App extends Component{
 //     render(){
@@ -16,7 +16,7 @@ import Main from './pages/main';
 const App = () => (
     <div className="App">
         <Header/>
-        <Main/>
+        <Routes/>
     </div>
 );
 
